@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Siren Forecast</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h1 class="text-center mb-4"><b><u>Siren Forecast</u></b></h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="location-form" class="mb-4">
+                    <div class="form-group">
+                        <label for pirate warining class="light-dark-button btn btn-info btn-sm" value= "pirate warning"><em>Ahoy, Me Hearties, check ye Siren Forecast to make sure these waters be safe to travel, yer don't want to end up at the bottom of Davy Jone's Locker like Stinkin Old Drunken Tuna-Breath & Toothless Pete. </em></label>
+                        <label for pirate warining class="light-dark-button btn btn-info btn-sm" value= "pirate warning"><em>Lady Tide may or maynot be in ye favor, make sure ye ain't shark bait. Check our Siren Forecast prior to your quest in search of trappin ye local sirens Captain Cutthroat & Scurvy Sam make sure they always check Siren Forecast and their handy compass before ever setting sail.</em></label>
+                        <label for location class="light-dark-button btn btn-info btn-sm" value= "pirate warning"><em>Ship Zipcode, Ship Docking City, or Latitude/Longitude of Ye Compass </em></label>
+                        <input type="text" class="form-control" id="location-input" placeholder="e.g., 12345, New York, 40.7128,-74.0060" required>
+                    </div>
+                    <button class="light-dark-button btn btn-info btn-sm" value="Track Siren"><b>Track Siren</b></button> | <button value="Get Ye Forecast" class="light-dark-button btn btn-info btn-sm"><b>Get Ye Forecast</b></Button>
+                </form>
+            </div>
+        </div>
+        <div id="forecast" class="row"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="static/js/index.js"></script>
+</body>
+</html>
